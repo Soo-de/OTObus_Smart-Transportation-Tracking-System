@@ -130,7 +130,7 @@ Firebase Realtime Database
 ![Control Screen](media/screenshots/control-screen.png)
 ---
 ### Statistics Screen
-- Real-time passenger count with environmental data display.
+- Real-Time sensor data displays with widgets.
 - Historical data visualization with interactive charts.
 ![Statistics Screen](media/screenshots/statistic-screen.png)
 ---
@@ -245,5 +245,6 @@ These files are excluded via `.gitignore`.
 <p align="center">
   Made with ❤️ for Smart Transportation that also cares about people's health
 </p>
+
 
 
