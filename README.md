@@ -40,6 +40,9 @@ OTObus is a comprehensive IoT solution designed to modernize public transportati
             │   (Mobile)   │          │  (FastAPI)   │
             └──────────────┘          └──────────────┘
 ```
+
+![System Overview](media/screenshots/system.png)
+
 ---
 ## 🚪 Counting Logic
 To optimize performance and reduce processing load on Raspberry Pi 3 Model A+, we implemented a **door-triggered counting system**:
