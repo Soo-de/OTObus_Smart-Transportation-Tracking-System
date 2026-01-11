@@ -123,23 +123,23 @@ Firebase Realtime Database
 ---
 ## 📱 Screenshots
 ### Home Screen
-Real-time passenger count with environmental data display.
 ![Home Screen](media/screenshots/home.png)
 ---
 ### Control Screen
-Door control and live camera feed from Raspberry Pi.
+- Door control and live camera feed from Raspberry Pi.
 ![Control Screen](media/screenshots/control-screen.png)
 ---
 ### Statistics Screen
-Historical data visualization with interactive charts.
+- Real-time passenger count with environmental data display.
+- Historical data visualization with interactive charts.
 ![Statistics Screen](media/screenshots/statistic-screen.png)
 ---
 ### AI Analysis Screen
-AI-powered daily reports with weather and holiday insights.
+- AI-powered daily reports with weather and holiday insights.
 ![AI Analysis Screen](media/screenshots/ai-screen.png)
 ---
 ### Raspberry Pi Output
-Computer vision passenger detection in action.
+- Computer vision passenger detection in action.
 ![Raspberry Pi Output](media/screenshots/raspberry-output.png)
 ---
 ## 📁 Project Structure
@@ -245,4 +245,5 @@ These files are excluded via `.gitignore`.
 <p align="center">
   Made with ❤️ for Smart Transportation that also cares about people's health
 </p>
+
 
