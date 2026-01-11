@@ -214,6 +214,7 @@ python main.py
    python iot_project.py
    ```
 ---
+<a id="-known-limitations"></a>
 ## ⚠️ Known Limitations
 > [!NOTE]
 > **Hardware Constraints**: Due to limited resources, we used Raspberry Pi 3 Model A+, which has lower processing power. Using a higher-end model (e.g., Raspberry Pi 4 or 5) would significantly improve detection accuracy and response time.
@@ -241,3 +242,4 @@ These files are excluded via `.gitignore`.
 <p align="center">
   Made with ❤️ for Smart Transportation that also cares about people's health
 </p>
+
