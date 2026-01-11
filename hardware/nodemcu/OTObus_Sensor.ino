@@ -7,15 +7,16 @@
 #include <FirebaseESP8266.h>
 #include <time.h>
 #include "LedControl.h"
+#include "config.h" // WiFi ve Firebase ayarları (config.h.example'dan kopyala)
 
 // ===============================================
 // KULLANICI AYARLARI (WIFI & FIREBASE)
 // ===============================================
-const char* WIFI_SSID = "";
-const char* WIFI_PASSWORD = "";
-
-const char* FIREBASE_HOST_VAL = "https://otobus-db-5d98e-default-rtdb.firebaseio.com/";
-const char* FIREBASE_AUTH_VAL = "gC3gt4S8DSYTD9GpWvKCLTRfHy81IdaoMq9HF5uP";
+// config.h dosyasından gelen değerler kullanılıyor
+const char* WIFI_SSID = WIFI_SSID;
+const char* WIFI_PASSWORD = WIFI_PASSWORD;
+const char* FIREBASE_HOST_VAL = FIREBASE_HOST;
+const char* FIREBASE_AUTH_VAL = FIREBASE_AUTH;
 
 // ===============================================
 // PIN TANIMLAMALARI

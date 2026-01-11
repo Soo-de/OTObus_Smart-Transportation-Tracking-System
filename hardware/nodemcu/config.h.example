@@ -1,0 +1,15 @@
+// ===============================================
+// OTObus NodeMCU Yapılandırma Şablonu
+// ===============================================
+// Bu dosyayı "config.h" olarak kopyala ve kendi değerlerini gir.
+// config.h dosyası .gitignore'dadır ve GitHub'a yüklenmez.
+// ===============================================
+
+// WiFi Ayarları
+#define WIFI_SSID "WIFI_ADINIZ"
+#define WIFI_PASSWORD "WIFI_SIFRENIZ"
+
+// Firebase Ayarları
+// Firebase Console > Project Settings > Service accounts > Database secrets
+#define FIREBASE_HOST "https://YOUR-PROJECT-default-rtdb.firebaseio.com/"
+#define FIREBASE_AUTH "YOUR_FIREBASE_DATABASE_SECRET"

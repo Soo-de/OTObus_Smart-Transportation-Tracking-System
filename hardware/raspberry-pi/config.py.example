@@ -1,0 +1,13 @@
+# ===============================================
+# OTObus Raspberry Pi Yapılandırma Şablonu
+# ===============================================
+# Bu dosyayı "config.py" olarak kopyala ve kendi değerlerini gir.
+# config.py dosyası .gitignore'dadır ve GitHub'a yüklenmez.
+# ===============================================
+
+# Firebase Realtime Database URL
+FIREBASE_URL = "https://YOUR-PROJECT-default-rtdb.firebaseio.com/"
+
+# Service Account Key dosya yolu
+# Firebase Console > Project Settings > Service accounts > Generate new private key
+SERVICE_ACCOUNT_KEY_PATH = "serviceAccountKey.json"

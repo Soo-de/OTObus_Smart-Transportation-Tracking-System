@@ -1,17 +1,48 @@
-# Python
+# =====================================
+# API ANAHTARLARI VE GİZLİ DOSYALAR
+# =====================================
+# Firebase Service Account (KRİTİK!)
+serviceAccountKey.json
+**/serviceAccountKey.json
+
+# Hardware Config Dosyaları
+hardware/nodemcu/config.h
+hardware/raspberry-pi/config.py
+
+# Environment Variables
+.env
+.env.*
+*.env
+
+# =====================================
+# PYTHON / AI SERVER
+# =====================================
 venv/
 __pycache__/
 *.pyc
 *.pkl
-# Flutter
+*.caffemodel
+*.prototxt
+
+# =====================================
+# FLUTTER / MOBİL
+# =====================================
 build/
 .dart_tool/
 .flutter-plugins
 .flutter-plugins-dependencies
+.metadata
+**/local.properties
+
+# =====================================
 # IDE
+# =====================================
 .idea/
 .vscode/
 *.iml
+
+# =====================================
 # OS
+# =====================================
 .DS_Store
 Thumbs.db

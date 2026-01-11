@@ -1,0 +1,30 @@
+{
+  "project_info": {
+    "project_number": "773944575382",
+    "firebase_url": "https://otobus-db-5d98e-default-rtdb.firebaseio.com",
+    "project_id": "otobus-db-5d98e",
+    "storage_bucket": "otobus-db-5d98e.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:773944575382:android:42f566e8116b8dd05bc9b7",
+        "android_client_info": {
+          "package_name": "com.example.otobus_app"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCOyBuyaCJWcYtKCVRBayd8s96NrIdTn8E"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
