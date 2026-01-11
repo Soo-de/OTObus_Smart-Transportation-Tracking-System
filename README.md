@@ -220,11 +220,13 @@ python main.py
 <a id="-known-limitations"></a>
 ## ⚠️ Known Limitations
 > [!NOTE]
-> **Hardware Constraints**: Due to limited resources, we used Raspberry Pi 3 Model A+, which has lower processing power. Using a higher-end model (e.g., Raspberry Pi 4 or 5) would significantly improve detection accuracy and response time.
+>**Hardware Constraints**: Due to limited resources, we used Raspberry Pi 3 Model A+, which has lower processing power. Using a higher-end model (e.g., Raspberry Pi 4 or 5) would significantly improve detection accuracy and response time.
+
 > [!NOTE]
-> **Simulated Data**: The passenger count data in the database was generated artificially using AI for simulation purposes, as real-world testing with actual passengers was not feasible.
+>**Simulated Data**: The passenger count data in the database was generated artificially using AI for simulation purposes, as real-world testing with actual passengers was not feasible.
+
 > [!NOTE]
-> **Manual Holiday Data**: Due to institutional network restrictions (KVKK compliance), we are unable to fetch holiday data from external APIs. Turkish holidays are manually configured in `ai-server/otobus_ai_server/holidays.json`.
+>**Manual Holiday Data**: Due to institutional network restrictions (KVKK compliance), we are unable to fetch holiday data from external APIs. Turkish holidays are manually configured in `ai-server/otobus_ai_server/holidays.json`.
 ---
 ## 🔒 Security Notes
 > [!IMPORTANT]
@@ -245,6 +247,7 @@ These files are excluded via `.gitignore`.
 <p align="center">
   Made with ❤️ for Smart Transportation that also cares about people's health
 </p>
+
 
 
 
